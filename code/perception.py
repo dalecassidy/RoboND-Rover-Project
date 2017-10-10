@@ -134,9 +134,9 @@ def perception_step(Rover):
     
     xpix, ypix = rover_coords(threshed)
     Rover.nav_dists, Rover.nav_angles = to_polar_coords(xpix, ypix)
-    navigable_mask = Rover.nav_dists < 90
-    xpix = xpix * navigable_mask
-    ypix = ypix * navigable_mask
+    #navigable_mask = Rover.nav_dists < 70
+    #xpix = xpix * navigable_mask
+    #ypix = ypix * navigable_mask
     
     xpix_obstacles, ypix_obstacles = rover_coords(threshed_obstacles)
     xpix_rocks, ypix_rocks = rover_coords(threshed_rocks)
