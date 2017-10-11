@@ -60,7 +60,7 @@ Rover.nav_dists, Rover.nav_angles = to_polar_coords(xpix, ypix)
 ```
 decision_step uses Rover.nav_dists and Rover.nav angles to turn navigate the rover. The rover 
 steers in the direction of the mean navigation angles. For the submitted project, I did not need
-to modify decision_step. However, I had tried some updates to that function as described below.
+to modify decision_step. However, I had tried some updates to that functions as described below.
 
 #### 2. Launching in autonomous mode your rover can navigate and map autonomously.  Explain your results and how you might improve them in your writeup.  
 
